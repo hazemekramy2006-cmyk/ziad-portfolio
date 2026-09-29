@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ziad Shaaban — Photographer &amp; Producer</title>
+<meta name="description" content="Portfolio of Ziad Shaaban, photographer and video producer with 2 years of experience in photography, Premiere Pro and CapCut.">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('ziad-theme')==='light'?'light':'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23a0121f'/%3E%3Ctext x='50' y='72' font-size='62' font-family='Georgia,serif' font-style='italic' fill='%23fff' text-anchor='middle'%3EZ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">Z</span>
+      <span class="logo-text">Ziad<em>.</em></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link active" data-i18n="nav.home">Home</a>
+      <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+      <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
+      <a href="#work" class="nav-link" data-i18n="nav.work">Work</a>
+      <a href="#resume" class="nav-link" data-i18n="nav.resume">Resume</a>
+      <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-btn" id="themeBtn" type="button" title="Switch to light mode" aria-label="Switch to light mode">
+        <svg class="i-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.8A8.6 8.6 0 0 1 9.2 3.5 8.7 8.7 0 1 0 20.5 14.8"/></svg>
+      </button>
+      <button class="lang-btn" id="langBtn" type="button">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/></svg>
+        <span id="langLabel">العربية</span>
+      </button>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero active" id="home">
+  <div class="hero-photo" id="heroPhoto">
+    <div class="photo-glow"></div>
+    <figure class="photo-frame">
+      <img src="image/ziad.jpeg" alt="Ziad Shaaban holding a laptop" class="photo-img" data-i18n-alt="hero.imgAlt">
+      <span class="photo-tint"></span>
+    </figure>
+  </div>
+  <div class="hero-fade"></div>
+  <div class="hero-vignette"></div>
+
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow reveal" style="--d:.05s"><span class="line"></span><span data-i18n="hero.eyebrow">Photographer &amp; Producer</span></p>
+
+      <h1 class="hero-title">
+        <span class="reveal" style="--d:.15s" data-i18n="hero.title1">Ziad</span>
+        <span class="reveal hero-title-2" style="--d:.28s" data-i18n="hero.title2">Shaaban</span>
+      </h1>
+
+      <p class="hero-sub reveal" style="--d:.4s" data-i18n="hero.sub">Two years of hands-on experience turning ideas into photos and videos that people stop to watch.</p>
+
+      <p class="hero-desc reveal" style="--d:.5s" data-i18n="hero.desc">Photography, video production and editing — from the first idea to the final export. I work with brands, creators and businesses to deliver content that looks clean, tells a story and gets results.</p>
+
+      <div class="hero-cta reveal" style="--d:.6s">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Hire Me</a>
+        <a href="#work" class="btn btn-ghost" data-i18n="hero.cta2">View My Work</a>
+      </div>
+
+      <div class="hero-meta reveal" style="--d:.7s">
+        <span class="dot-pulse"></span>
+        <span data-i18n="hero.meta">Available for freelance &amp; brand work</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-hint" data-i18n-aria="ui.scrollAria" aria-label="Scroll down">
+    <span data-i18n="ui.scroll">Scroll</span>
+    <i class="scroll-line"></i>
+  </a>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span data-i18n="marquee">PHOTOGRAPHY — VIDEO PRODUCTION — PREMIERE PRO — CAPCUT — COLOR GRADING — CONTENT CREATION — </span>
+    <span data-i18n="marquee">PHOTOGRAPHY — VIDEO PRODUCTION — PREMIERE PRO — CAPCUT — COLOR GRADING — CONTENT CREATION — </span>
+  </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-label reveal" data-i18n="about.label">About Me</span>
+      <h2 class="sec-title reveal" style="--d:.08s" data-i18n="about.title">Passionate about every single frame.</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <div class="about-photo-inner">
+          <img src="image/ziad.jpeg" alt="Portrait of Ziad Shaaban" data-i18n-alt="about.imgAlt">
+        </div>
+        <div class="about-badge">
+          <strong>2<sup>+</sup></strong>
+          <span data-i18n="about.badge">Years Experience</span>
+        </div>
+      </div>
+
+      <div class="about-body">
+        <p class="about-p reveal" style="--d:.1s" data-i18n="about.p1">I'm Ziad Shaaban, a photographer and producer with two years of experience in shooting, production and video editing. I work with brands, creators and businesses to deliver content that looks clean, tells a story and gets real results.</p>
+        <p class="about-p reveal" style="--d:.2s" data-i18n="about.p2">I believe great content is a mix of the right light, the right timing and a sharp edit — that's exactly what I bring to every project I work on.</p>
+        <p class="signature reveal" style="--d:.3s">Ziad Shaaban</p>
+
+        <div class="stats">
+          <div class="stat reveal" style="--d:.1s">
+            <strong class="num" data-count="2" data-suffix="+">0</strong>
+            <span data-i18n="about.s1">Years Experience</span>
+          </div>
+          <div class="stat reveal" style="--d:.2s">
+            <strong class="num" data-count="150" data-suffix="+">0</strong>
+            <span data-i18n="about.s2">Projects Delivered</span>
+          </div>
+          <div class="stat reveal" style="--d:.3s">
+            <strong class="num" data-count="20" data-suffix="+">0</strong>
+            <span data-i18n="about.s3">Brands &amp; Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section section-alt" id="services">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-label reveal" data-i18n="services.label">What I Do</span>
+      <h2 class="sec-title reveal" style="--d:.08s" data-i18n="services.title">Services built around your content.</h2>
+      <p class="sec-intro reveal" style="--d:.16s" data-i18n="services.intro">Four things I do best — start to finish, no hand-offs, no stress.</p>
+    </div>
+
+    <div class="cards-grid">
+      <article class="card reveal" style="--d:.05s">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5A2.5 2.5 0 0 1 5.5 6h1.7l1.2-1.8h6.2L15.8 6h2.7A2.5 2.5 0 0 1 21 8.5v8A2.5 2.5 0 0 1 18.5 19h-13A2.5 2.5 0 0 1 3 16.5z"/><circle cx="12" cy="12.5" r="3.4"/></svg>
+        </div>
+        <span class="card-num">01</span>
+        <h3 data-i18n="services.s1t">Photography</h3>
+        <p data-i18n="services.s1d">Clean, sharp photography for products, portraits and events — with proper lighting and professional retouching.</p>
+      </article>
+
+      <article class="card reveal" style="--d:.13s">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="13" height="12" rx="2.2"/><path d="M15.5 10.5 21.5 7.5v9l-6-3z"/></svg>
+        </div>
+        <span class="card-num">02</span>
+        <h3 data-i18n="services.s2t">Video Production</h3>
+        <p data-i18n="services.s2d">Full production: concept, shooting, direction and delivery for ads and brand films.</p>
+      </article>
+
+      <article class="card reveal" style="--d:.21s">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/><circle cx="9" cy="7" r="2" fill="currentColor" stroke="none"/><circle cx="15" cy="12" r="2" fill="currentColor" stroke="none"/><circle cx="8" cy="17" r="2" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <span class="card-num">03</span>
+        <h3 data-i18n="services.s3t">Video Editing</h3>
+        <p data-i18n="services.s3d">Precise editing in Adobe Premiere Pro — pacing, sound design and color grading that keep viewers watching.</p>
+      </article>
+
+      <article class="card reveal" style="--d:.29s">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.6"/><path d="M10.5 5.5h3M11 18.2h2"/></svg>
+        </div>
+        <span class="card-num">04</span>
+        <h3 data-i18n="services.s4t">Short-Form Content</h3>
+        <p data-i18n="services.s4d">Reels, TikTok and Shorts edited in CapCut, built to reach more people and drive engagement.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section class="section" id="work">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-label reveal" data-i18n="work.label">Selected Work</span>
+      <h2 class="sec-title reveal" style="--d:.08s" data-i18n="work.title">A few things I've worked on.</h2>
+      <p class="sec-intro reveal" style="--d:.16s" data-i18n="work.intro">A mix of brand films, product shoots and short-form content — the names stay private, the work speaks.</p>
+    </div>
+
+    <div class="work-grid">
+      <article class="work-card reveal" style="--d:.05s">
+        <div class="work-visual w1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="2.5" y="6" width="13" height="12" rx="2.2"/><path d="M15.5 10.5 21.5 7.5v9l-6-3z"/></svg>
+          <span class="work-num">01</span>
+        </div>
+        <div class="work-info">
+          <span class="work-cat" data-i18n="work.c1c">Video Production</span>
+          <h3 data-i18n="work.c1">Brand Commercial</h3>
+          <span class="work-arrow">↗</span>
+        </div>
+      </article>
+
+      <article class="work-card reveal" style="--d:.12s">
+        <div class="work-visual w2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 8.5A2.5 2.5 0 0 1 5.5 6h1.7l1.2-1.8h6.2L15.8 6h2.7A2.5 2.5 0 0 1 21 8.5v8A2.5 2.5 0 0 1 18.5 19h-13A2.5 2.5 0 0 1 3 16.5z"/><circle cx="12" cy="12.5" r="3.4"/></svg>
+          <span class="work-num">02</span>
+        </div>
+        <div class="work-info">
+          <span class="work-cat" data-i18n="work.c2c">Photography</span>
+          <h3 data-i18n="work.c2">Product Shots</h3>
+          <span class="work-arrow">↗</span>
+        </div>
+      </article>
+
+      <article class="work-card reveal" style="--d:.19s">
+        <div class="work-visual w3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="6" y="2.5" width="12" height="19" rx="2.6"/><path d="M10.5 5.5h3M11 18.2h2"/></svg>
+          <span class="work-num">03</span>
+        </div>
+        <div class="work-info">
+          <span class="work-cat" data-i18n="work.c3c">Short-Form</span>
+          <h3 data-i18n="work.c3">Social Reels</h3>
+          <span class="work-arrow">↗</span>
+        </div>
+      </article>
+
+      <article class="work-card reveal" style="--d:.05s">
+        <div class="work-visual w4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="3" y="5" width="18" height="16" rx="2.4"/><path d="M3 9.5h18M8 3v4M16 3v4"/></svg>
+          <span class="work-num">04</span>
+        </div>
+        <div class="work-info">
+          <span class="work-cat" data-i18n="work.c4c">Photography</span>
+          <h3 data-i18n="work.c4">Event Coverage</h3>
+          <span class="work-arrow">↗</span>
+        </div>
+      </article>
+
+      <article class="work-card reveal" style="--d:.12s">
+        <div class="work-visual w5">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M9 18V6l10-2v12"/><circle cx="6.5" cy="18" r="2.6"/><circle cx="16.5" cy="16" r="2.6"/></svg>
+          <span class="work-num">05</span>
+        </div>
+        <div class="work-info">
+          <span class="work-cat" data-i18n="work.c5c">Direction &amp; Edit</span>
+          <h3 data-i18n="work.c5">Music Video</h3>
+          <span class="work-arrow">↗</span>
+        </div>
+      </article>
+
+      <article class="work-card reveal" style="--d:.19s">
+        <div class="work-visual w6">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M4 7h16M4 12h16M4 17h16"/><circle cx="9" cy="7" r="2" fill="currentColor" stroke="none"/><circle cx="15" cy="12" r="2" fill="currentColor" stroke="none"/><circle cx="8" cy="17" r="2" fill="currentColor" stroke="none"/></svg>
+          <span class="work-num">06</span>
+        </div>
+        <div class="work-info">
+          <span class="work-cat" data-i18n="work.c6c">Content</span>
+          <h3 data-i18n="work.c6">Behind The Scenes</h3>
+          <span class="work-arrow">↗</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-label reveal" data-i18n="skills.label">Tools &amp; Skills</span>
+      <h2 class="sec-title reveal" style="--d:.08s" data-i18n="skills.title">The gear behind the work.</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill reveal" style="--d:.05s">
+        <div class="skill-top"><span data-i18n="skills.k1">Photography</span><b>95%</b></div>
+        <div class="skill-bar"><i data-level="95"></i></div>
+      </div>
+      <div class="skill reveal" style="--d:.1s">
+        <div class="skill-top"><span data-i18n="skills.k2">Adobe Premiere Pro</span><b>90%</b></div>
+        <div class="skill-bar"><i data-level="90"></i></div>
+      </div>
+      <div class="skill reveal" style="--d:.15s">
+        <div class="skill-top"><span data-i18n="skills.k3">CapCut Editing</span><b>95%</b></div>
+        <div class="skill-bar"><i data-level="95"></i></div>
+      </div>
+      <div class="skill reveal" style="--d:.2s">
+        <div class="skill-top"><span data-i18n="skills.k4">Color Grading</span><b>85%</b></div>
+        <div class="skill-bar"><i data-level="85"></i></div>
+      </div>
+      <div class="skill reveal" style="--d:.25s">
+        <div class="skill-top"><span data-i18n="skills.k5">Lighting &amp; Setup</span><b>88%</b></div>
+        <div class="skill-bar"><i data-level="88"></i></div>
+      </div>
+      <div class="skill reveal" style="--d:.3s">
+        <div class="skill-top"><span data-i18n="skills.k6">Creative Direction</span><b>80%</b></div>
+        <div class="skill-bar"><i data-level="80"></i></div>
+      </div>
+    </div>
+
+    <div class="tools reveal">
+      <span class="tools-label" data-i18n="skills.toolsLabel">Software &amp; Gear</span>
+      <ul class="tools-list">
+        <li>Adobe Premiere Pro</li>
+        <li>CapCut</li>
+        <li>Adobe Lightroom</li>
+        <li>Adobe Photoshop</li>
+        <li data-i18n="skills.t5">DSLR &amp; Mirrorless Cameras</li>
+        <li data-i18n="skills.t6">LED &amp; Studio Lighting</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESUME ================= -->
+<section class="section" id="resume">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-label reveal" data-i18n="resume.label">Resume</span>
+      <h2 class="sec-title reveal" style="--d:.08s" data-i18n="resume.title">My journey so far.</h2>
+      <p class="sec-intro reveal" style="--d:.16s" data-i18n="resume.intro">Two years of hands-on work behind the camera and inside the timeline.</p>
+    </div>
+
+    <div class="resume-grid">
+      <div class="resume-col">
+        <h3 class="resume-h reveal" data-i18n="resume.expTitle">Experience</h3>
+
+        <div class="timeline">
+          <div class="tl-item reveal" style="--d:.05s">
+            <span class="tl-dot"></span>
+            <span class="tl-period" data-i18n="resume.e1p">2024 — Present</span>
+            <h4 data-i18n="resume.e1r">Freelance Photographer &amp; Producer</h4>
+            <span class="tl-place" data-i18n="resume.e1o">Self-employed</span>
+            <p data-i18n="resume.e1d">Producing photo and video content for brands, studios and creators — handling everything from concept and shooting to editing and final delivery.</p>
+          </div>
+
+          <div class="tl-item reveal" style="--d:.13s">
+            <span class="tl-dot"></span>
+            <span class="tl-period" data-i18n="resume.e2p">2023 — 2024</span>
+            <h4 data-i18n="resume.e2r">Video Editor</h4>
+            <span class="tl-place" data-i18n="resume.e2o">Freelance · Remote</span>
+            <p data-i18n="resume.e2d">Edited commercials, promos and short-form content in Premiere Pro and CapCut for a range of clients, with a focus on clean pacing and fast turnaround.</p>
+          </div>
+
+          <div class="tl-item reveal" style="--d:.21s">
+            <span class="tl-dot"></span>
+            <span class="tl-period" data-i18n="resume.e3p">2023</span>
+            <h4 data-i18n="resume.e3r">Photography Assistant</h4>
+            <span class="tl-place" data-i18n="resume.e3o">Studio &amp; Events</span>
+            <p data-i18n="resume.e3d">Supported studio and on-location shoots — lighting setup, camera assistance, photo selection and basic editing.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume-col">
+        <h3 class="resume-h reveal" data-i18n="resume.eduTitle">Education &amp; Certificates</h3>
+
+        <div class="timeline">
+          <div class="tl-item reveal" style="--d:.05s">
+            <span class="tl-dot"></span>
+            <span class="tl-period" data-i18n="resume.c1p">2024</span>
+            <h4 data-i18n="resume.c1r">Video Editing &amp; Post-Production</h4>
+            <span class="tl-place" data-i18n="resume.c1o">Professional Certificate</span>
+            <p data-i18n="resume.c1d">Advanced editing, sound design and color grading workflow in Adobe Premiere Pro.</p>
+          </div>
+
+          <div class="tl-item reveal" style="--d:.13s">
+            <span class="tl-dot"></span>
+            <span class="tl-period" data-i18n="resume.c2p">2023</span>
+            <h4 data-i18n="resume.c2r">Digital Photography Fundamentals</h4>
+            <span class="tl-place" data-i18n="resume.c2o">Professional Certificate</span>
+            <p data-i18n="resume.c2d">Exposure, composition, lighting and retouching fundamentals.</p>
+          </div>
+
+          <div class="tl-item reveal" style="--d:.21s">
+            <span class="tl-dot"></span>
+            <span class="tl-period" data-i18n="resume.c3p">2023</span>
+            <h4 data-i18n="resume.c3r">Social Media Content Creation</h4>
+            <span class="tl-place" data-i18n="resume.c3o">Professional Certificate</span>
+            <p data-i18n="resume.c3d">Planning and producing short-form content that performs on Reels, TikTok and Shorts.</p>
+          </div>
+        </div>
+
+        <button class="btn btn-ghost print-btn reveal" id="printBtn" type="button">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 9V3.5h11V9M6.5 18H5a2 2 0 0 1-2-2v-4.5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2V16a2 2 0 0 1-2 2h-1.5"/><rect x="6.5" y="14" width="11" height="6.5" rx="1.2"/></svg>
+          <span data-i18n="resume.print">Print / Save CV</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section section-contact" id="contact">
+  <div class="container">
+    <div class="sec-head sec-head-center">
+      <span class="sec-label reveal" data-i18n="contact.label">Contact</span>
+      <h2 class="sec-title reveal" style="--d:.08s" data-i18n="contact.title">Let's create something together.</h2>
+      <p class="sec-intro reveal" style="--d:.16s" data-i18n="contact.intro">Available for freelance projects, brand shoots and video production. Call me or send a WhatsApp message anytime.</p>
+    </div>
+
+    <div class="contact-cards">
+      <div class="contact-card reveal" style="--d:.05s">
+        <span class="cc-label" data-i18n="contact.card1">Mobile</span>
+        <a class="cc-num" href="tel:01021394706" dir="ltr">01021394706</a>
+        <div class="cc-actions">
+          <a href="tel:01021394706" class="mini-btn" data-i18n="ui.call">Call</a>
+          <a href="https://wa.me/201021394706" target="_blank" rel="noopener" class="mini-btn mini-btn-solid" data-i18n="ui.whatsapp">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="contact-card reveal" style="--d:.15s">
+        <span class="cc-label" data-i18n="contact.card2">Mobile</span>
+        <a class="cc-num" href="tel:01018430937" dir="ltr">01018430937</a>
+        <div class="cc-actions">
+          <a href="tel:01018430937" class="mini-btn" data-i18n="ui.call">Call</a>
+          <a href="https://wa.me/201018430937" target="_blank" rel="noopener" class="mini-btn mini-btn-solid" data-i18n="ui.whatsapp">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-meta reveal" style="--d:.25s">
+      <span class="dot-pulse"></span>
+      <span data-i18n="contact.location">Egypt · Available for work worldwide</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">Z</span>
+      <span class="logo-text">Ziad<em>.</em></span>
+    </a>
+    <p class="copyright" data-i18n="footer.rights">© 2026 Ziad Shaaban. All rights reserved.</p>
+    <a href="#home" class="to-top" data-i18n="footer.top">Back to top ↑</a>
+  </div>
+</footer>
+
+<!-- ================= PAGE DOTS ================= -->
+<nav class="page-dots" id="pageDots" aria-label="Page navigation">
+  <a href="#home" class="pdot current" title="Home" data-i18n-aria="nav.home" data-i18n-title="nav.home"></a>
+  <a href="#about" class="pdot" title="About" data-i18n-aria="nav.about" data-i18n-title="nav.about"></a>
+  <a href="#services" class="pdot" title="Services" data-i18n-aria="nav.services" data-i18n-title="nav.services"></a>
+  <a href="#work" class="pdot" title="Work" data-i18n-aria="nav.work" data-i18n-title="nav.work"></a>
+  <a href="#skills" class="pdot" title="Skills" data-i18n-aria="nav.skills" data-i18n-title="nav.skills"></a>
+  <a href="#resume" class="pdot" title="Resume" data-i18n-aria="nav.resume" data-i18n-title="nav.resume"></a>
+  <a href="#contact" class="pdot" title="Contact" data-i18n-aria="nav.contact" data-i18n-title="nav.contact"></a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
